@@ -1,0 +1,34 @@
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{"/assets/vendor/startbootstrap-clean-blog/js/scripts.js" | relative_url }}"></script>
+
+<script src="{{"/assets/scripts.js" | relative_url }}"></script>
+
+<!--<script>
+  var informationArray= [];
+  $.ajax({
+    url: "data/users.json",
+    dataType: "json",
+    success: function(data) {
+      $.each(data.Users, function(item) {
+        informationArray.push(item);
+      });
+      informationArray.push("success");
+    },
+  });
+</script>-->
+
+<script>
+function searchAndDownloadApp() {
+    var str = '';
+    var qs = $.trim( $("#q").val());
+    $('#output').html('<img src="images/loading.gif" alt="" width="143" height="93">').show();
+    $.getJSON("https://api.github.com/repos/giua-app/giua-app/releases",function(resultData){
+      var jsonP = JSON.stringify(resultData);
+      var link = resultData["0"]["assets"]["0"]["browser_download_url"]
+      //alert("thing: " + link + "\n\nString: " + jsonP);
+      document.getElementById("btn-download").innerHTML = "Download in corso..."
+      window.open(link, "_top")
+  });
+}
+</script>
