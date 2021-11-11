@@ -6,7 +6,7 @@ window.onload = checkAppVersion
 function checkAppVersion(){
   $.getJSON("https://api.github.com/repos/giua-app/giua-app/releases",function(resultData){
     var ver = resultData["0"]["tag_name"]
-    document.getElementById("ver-string").innerHTML = "Ultima versione: " + ver
+    document.getElementById("ver-string").innerHTML = "Ultima versione: " + ver + " (beta)"
   });
 }
 
