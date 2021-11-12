@@ -29,7 +29,7 @@ function searchAndDownloadApp() {
     btn_download.innerHTML = "Download avviato"
     setTimeout(function(){
         btn_download.setAttribute("onClick", "searchAndDownloadApp();")
-        btn_download.innerHTML = "Scarica"
+        btn_download.innerHTML = '<i class="fab fa-android" style="margin-right: 10px;"></i>SCARICA'
     },2000);
   });
 }
