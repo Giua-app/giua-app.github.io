@@ -11,6 +11,7 @@ function checkAppVersion(){
 }
 
 function searchAndDownloadApp() {
+  $.get("https://app.piratepx.com/ship?p=6af8462c-efe0-4f9a-96d0-ec9a8bbb9060&i=Download da website")
   var btn_download = document.getElementById("btn-download")
   btn_download.setAttribute("onClick", "")
   btn_download.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Download in corso...'
