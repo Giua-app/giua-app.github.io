@@ -9,20 +9,13 @@ layout: default
   <header class="masthead">
     {% endif %}
     <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>{{ page.title }}</h1>
-            {% if page.description %}
-            <span class="subheading">{{ page.description }}</span>
-            {% endif %}
-          </div>
-        </div>
-      </div>
+    <div class="container px-4 text-center">
+      <h1 class="fw-bolder position-relative text-white">{{ page.title }}</h1>
+      <!--<p class="lead" style="color: white;">{{ page.description }}</p>-->
+    </div>
     </div>
   </header>
-
+  
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
