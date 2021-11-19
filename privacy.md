@@ -29,7 +29,7 @@ Usiamo le tue informazioni solo per scopi legittimi, ad esempio, nel caso delle 
 
 No, non condividiamo le tue informazioni personali a nessun servizio esterno e neanche a noi stessi. Le informazioni di accesso e le tue preferenze non vengono trasmesse online e rimangono solo nella memoria interna del tuo telefono.
 
-## Con chi condividiamo le tue informazioni?
+## Con chi condividete le mie informazioni?
 
 Le uniche informazioni trasmesse e condivise al di fuori del tuo telefono sono gli analytics del nostro provider [Piratepx](https://www.piratepx.com/). Non vengono definite "Informazioni personali" in quanto non ti identificano individualmente in nessun modo.
 
