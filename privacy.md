@@ -5,7 +5,7 @@ description: La Privacy Policy di Giua App
 background: '/img/blue-bg.png'
 ---
 
-# PRIVACY POLICY
+# ⠀
 
 Ultimo aggiornamento: 19 Novembre 2021
 
