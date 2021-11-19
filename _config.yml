@@ -2,6 +2,7 @@ title:              Giua App
 description:        L'app dell'Istituto d'Istruzione Superiore "Michele Giua"
 baseurl:            ""
 url:                "https://giua-app.github.io"
+markdown: kramdown
 
 # Build settings
 markdown:           kramdown
