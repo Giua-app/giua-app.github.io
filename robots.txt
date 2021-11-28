@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: google54a40ba97f987078.html
+sitemap: https://giua-app.github.io/sitemap.xml
