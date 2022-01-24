@@ -33,7 +33,7 @@ Riguardo invece alle informazioni da noi raccolte per gli analytics, esse verran
 
 ## Per quanto tempo tenete le mie informazioni?
 
-Le informazioni personali, come le credenziali utente, verranno conservate nella memoria interna del telefono fino a quando non verrà disinstallata l'app o si esce dall'account. Invece, le informazioni inviate a [PostHog](https://www.posthog.com/) verranno conservate fino a quanto non saranno più necessarie.
+Le informazioni personali, come le credenziali utente, verranno conservate nella memoria interna del telefono fino a quando non verrà disinstallata l'app o si esce dall'account. Invece, le informazioni inviate a [PostHog](https://www.posthog.com/) verranno conservate fino a quando non saranno più necessarie.
 
 ## In quali situazioni usate gli analytics nell'App?
 
@@ -61,32 +61,33 @@ Come base, inviamo le seguenti informazioni in ogni situazione:
 In particolari situazioni potremmo però inviarne altre.
 Elenchiamo tutte le situazioni e le informazioni inviate qui sotto
 
-### - Errore critico dell'applicazione (crash)
+#### - Errore critico dell'applicazione (crash)
 
 Oltre alle informazioni di base, inviamo:
 
 - stacktrace dell'errore
 - informazioni dell'dispositivo (marca, versione, ecc)
 
-### - Aggiornamento dell'app ad una nuova versione
+#### - Aggiornamento dell'app ad una nuova versione
 
 Oltre alle informazioni di base, inviamo:
 
 - la nuova versione dell'app appena installata
 - la precedente versione dell'app
 
-### - Login completato con successo
+#### - Login completato con successo
 
 Oltre alle informazioni di base, inviamo:
 
 - il tipo di utente a cui si è effetuato l'accesso (es: Genitore, Studente)
 
-Nessuna delle informazioni inviate contengono dati personali e non rendono l'utente identificabile individualmente
+Nessuna delle informazioni inviate contengono dati personali e non rendono l'utente identificabile individualmente.
+
 Gli IP dei dispositivi vengono anonimizzati da PostHog una volta ricevuti (es: IP originale 192.168.0.1, IP ricevuto 0.0.0.0)
 
 ## Come posso contattarvi riguardo questa Privacy Policy?
 
-Puoi contattarci via email a *...*
+Puoi contattarci via email a *[privacy@appgiua.slmail.me](mailto:privacy@appgiua.slmail.me)*
 
 <br>
 
