@@ -11,7 +11,7 @@ Ultimo aggiornamento: 23/01/2022
 
 ### Ciao!
 
-Innanzitutto, grazie per aver usato Giua App! Siamo lieti che tu voglia sapere di più su come trattiamo i tuoi dati, ed è per questo che abbiamo reso questo documento il più leggibile e comprendibile possibile, anche senza particolari conoscenze legislative o informatiche. Ricordiamo che *questa Privacy Policy riguarda **esclusivamente** l'app e non ricopre questo sito web*.
+Innanzitutto, grazie per aver usato Giua App! Siamo lieti che tu voglia sapere di più su come trattiamo i tuoi dati, ed è per questo che abbiamo reso questo documento il più leggibile e comprensibile possibile, anche senza particolari conoscenze legislative o informatiche. Ricordiamo che *questa Privacy Policy riguarda **esclusivamente** l'app e non ricopre questo sito web*.
 
 ## Che informazioni raccogliete?
 
