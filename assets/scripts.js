@@ -11,6 +11,11 @@ window.onload = function(){
         checkAppVersion();
         return;
     }
+
+    if(document.title.startsWith("changelog")) {
+        buildChangelogForAPI();
+        return;
+    }
 }
 
 function buildChangelog(){
@@ -36,6 +41,36 @@ function buildChangelog(){
 
         div.innerHTML += "<br><br>"
     });
+}
+
+function buildChangelogForAPI(){
+    var div = document.getElementsByTagName("body")[0]
+
+    $.ajax({
+        type: "GET",
+        async: "false",
+        url: "https://api.github.com/repos/giua-app/giua-app/releases",
+        success: function(resultData){
+            var tag =  resultData["0"]["tag_name"]
+            var body =  resultData["0"]["body"]
+            var date = new Date(resultData["0"]["published_at"])
+
+            div.innerHTML = "<h1>" + tag + " <span style=\"font-size: 60%;\">(" + date.toLocaleDateString() + ")</span></h1>"
+            div.innerHTML += body
+
+            for (let i = 1; i < Object.keys(resultData).length; i++) {
+                var tag =  resultData["" + i]["tag_name"]
+                var body =  resultData["" + i]["body"]
+                var date = new Date(resultData["" + i]["published_at"])
+                if(body != ""){
+                    div.innerHTML += "<hr><h1>" + tag + " <span style=\"font-size: 60%;\">(" + date.toLocaleDateString() + ")</span></h1>"
+                    div.innerHTML += body
+                }
+            }
+
+            div.innerHTML += "<br><br>"
+        }
+    })
 }
 
 
@@ -76,7 +111,7 @@ function searchAndDownloadApp() {
 /*
 * Animated canvas background
 * made by Tuomas Pöyry on https://codepen.io/Munkkeli/pen/PqWBdP
-*/
+*
 var Canvas = document.getElementById('canvas');
 var ctx = Canvas.getContext('2d');
 
@@ -170,7 +205,7 @@ setInterval(function() {
     for (var e in elements)
 		elements[e].draw(ctx, time);
 }, 10);
-
+*/
 
 
 
