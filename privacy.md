@@ -7,8 +7,8 @@ background: '/img/blue-bg.png'
 
 # ⠀
 
-Ultimo aggiornamento: 27/01/2022
-Riferito alla versione: 0.6.4-stable
+Ultimo aggiornamento: 19/02/2022<br>
+Valido dalla versione: 0.6.4-stable
 
 ### Ciao!
 
